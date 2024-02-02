@@ -11,7 +11,7 @@ Before you create an Azure connector, ensure that you have the following permiss
 Active Directory
 - :book:Checking Azure Subscription Permissions to assign the application to a role in your
 Azure subscription</details>
-This process only requires a few minutes. Now, let's explore the permissions required to create an Azure connector.<details>
+This process only requires a few minutes. Now, let's explore the permissions required to create an Azure connector.<details><summary>Click here for details</summary>
 # -Step 1: Integration Setup
 Access Qualys Platform:
 
@@ -85,6 +85,7 @@ Access Qualys Platform:
 - ▶️ Navigate to the Menu panel to your left and select "API Permissions" and then Click on the "Add Permission" button<img width="820" alt="API Permissions1" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/f2459961-3d3a-4302-bc81-cc8a0fbb166d">
 - ▶️ Select "Azure Service Management"<img width="677" alt="API Request" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/a74956b3-9c86-4d78-9537-73bcb4aad6dd">
 - ▶️  Select user impersonation permission and click Add permissions. <img width="680" alt="Add Permissions" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/932058b8-345d-449b-93b4-4fcd47553a8c">
+
 </details>
 
 
