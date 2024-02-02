@@ -25,7 +25,11 @@ Access Qualys Platform:
 
 # - 🧭Navigate to Azure Integration:
 
-- Set up Authentication Details
+The integration between Qualys and Microsoft Azure typically involves the configuration of Azure connectors in Qualys. This integration allows Qualys to gather information about your Azure resources for security and compliance assessments. 
+
+ℹ️Setting up Authentication in Azure connectors in Qualys requires that you provide the necessary Azure credentials, including Subscription ID, Application (Client ID, Client Secret, and Directory (Tenant) ID.
+
+# Here are the key steps and components involved in Azure integration with Qualys:
 
 - 🖥️Locate the Azure integration settings in Qualys.
 - 🧰Configure Azure Connection:
