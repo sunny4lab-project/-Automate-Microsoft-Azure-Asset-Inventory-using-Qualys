@@ -39,6 +39,7 @@ Access Qualys Platform:
 - ▶️ Click on the "New Registration" with the + sign. <img width="783" alt="New Registration" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/0b76d242-1091-4264-aa24-fb0d55a4d9f0">
 
 - ▶️ Provide the following details: A name for the application and also select the Supported account types: directory for single Tenant, Multi-Tenant. Also, Click on "Register" when done.<img width="749" alt="Register an application" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/02076576-5a2e-4620-9142-249e6cf20b1e">
+
   <details>
   <summary><span style="color: #4CAF50;">Details on Azure Tenant Architecture</span></summary>
 
@@ -79,12 +80,6 @@ Access Qualys Platform:
   Understanding the tenancy model is crucial when designing and deploying applications or services in Azure, as it influences factors such as security, isolation, customization, and cost considerations. The choice between single-tenant and multi-tenant architectures depends on the specific requirements and priorities of the application or service being deployed.
 </details>
 
-
-- ▶️ Navigate to the Registered app by selecting the "all application" button as shown on below
-<img width="950" alt="Navigate to App Registration" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/54c35a12-29b7-4047-b661-18914a3d8404"> For example: I will select the "IOT" app I created.
-- ▶️ Navigate to the Menu panel to your left and select "API Permissions" and then Click on the "Add Permission" button<img width="820" alt="API Permissions1" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/f2459961-3d3a-4302-bc81-cc8a0fbb166d">
-- ▶️ Select "Azure Service Management"<img width="677" alt="API Request" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/a74956b3-9c86-4d78-9537-73bcb4aad6dd">
-- ▶️  Select user impersonation permission and click Add permissions. <img width="680" alt="Add Permissions" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/932058b8-345d-449b-93b4-4fcd47553a8c">
 
 </details>
 
