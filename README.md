@@ -4,4 +4,11 @@ Managing a comprehensive asset inventory in Microsoft Azure is critical for effe
 
 # -Deploying Azure Connector
 
-Set up Microsoft Azure connectors to collect resource information from your Azure account. You can establish an Azure Connector through AssetView and TotalCloud, as detailed in the prerequisites section. This process only requires a few minutes. Now, let's explore the permissions required to create an Azure connector.
+Set up Microsoft Azure connectors to collect resource information from your Azure account. You can establish an Azure Connector through AssetView and TotalCloud, as detailed in the prerequisites section<details> <summary> Click here for details</summary>
+# -Pre-requisites
+Before you create an Azure connector, ensure that you have the following permissions:
+- Assign Azure Active Directory permissions to register an application with your Azure
+Active Directory
+- Checking Azure Subscription Permissions to assign the application to a role in your
+Azure subscription</details>. This process only requires a few minutes. Now, let's explore the permissions required to create an Azure connector.<details>
+  <summary>Click Here for Details</summary>
