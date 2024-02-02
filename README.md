@@ -15,7 +15,10 @@ This process only requires a few minutes. Now, let's explore the permissions req
 # -Step 1: Integration Setup
 Access Qualys Platform:
 
-- 👨‍💻Log in to your Qualys account and access the platform.
+- 👨‍💻Log in to your Qualys account and access the platform.<img width="961" alt="Qualys Login screen " src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/a7a33272-234d-4c48-9a67-cedb6854de61">
+
+- Click on the Connector app on the menu bar to your Left.<img width="509" alt="navigate to the connector app" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/b24eac47-0b83-4417-9a0e-3fa115e68418">
+
 - 🧭Navigate to Azure Integration:
 
 - 🖥️Locate the Azure integration settings in Qualys.
