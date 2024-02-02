@@ -20,19 +20,21 @@ Access Qualys Platform:
 - ➡️Click on the Connector app on the menu bar to your Left.<img width="509" alt="navigate to the connector app" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/b24eac47-0b83-4417-9a0e-3fa115e68418">
 - ▶️ Select the Cloud service you wish to connect to. In this case it's going to be "Azure Connector" <img width="954" alt="cloud connector selection" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/967b5f13-41f0-4259-b0bd-a978818dd8ad">
 
-- ➡️Enter a name and description (optional) for your connector <img width="926" alt="Connect Basic Details " src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/e60f414f-943b-4100-9317-2e59b1e714d8">
+- ➡️Enter a name and description (optional) for your connector  # <img width="926" alt="Connect Basic Details " src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/e60f414f-943b-4100-9317-2e59b1e714d8">
 
 
 # - 🧭Navigate to Azure Integration:
 
-The integration between Qualys and Microsoft Azure typically involves the configuration of Azure connectors in Qualys. This integration allows Qualys to gather information about your Azure resources for security and compliance assessments. 
+💁 The integration between Qualys and Microsoft Azure typically involves the configuration of Azure connectors in Qualys. This integration allows Qualys to gather information about your Azure resources for security and compliance assessments. 
 
-ℹ️Setting up Authentication in Azure connectors in Qualys requires that you provide the necessary Azure credentials, including Subscription ID, Application (Client ID, Client Secret, and Directory (Tenant) ID.
+ℹ️ Setting up Authentication in Azure connectors in Qualys requires that you provide the necessary Azure credentials, including Subscription ID, Application (Client) ID, Client Secret, and Directory (Tenant) ID.
 
 # Here are the key steps and components involved in Azure integration with Qualys:
 
-- 🖥️Locate the Azure integration settings in Qualys.
-- 🧰Configure Azure Connection:
+- ▶️Log on to the Microsoft Azure console and Search "Microsoft Entra ID" <img width="646" alt="Microsoft entra ID search" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/29c5a477-67c7-4462-a04d-1bb61db0df2e">
+
+- ▶️ On the Navigation Panel on the left, scroll down and Click App Registrations > New Registration.
+<img width="419" alt="App Registration" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/8c41640c-a78f-4441-952c-b5bd8f47481c">
 
 - ☑️Enter Azure credentials and establish a secure connection between Qualys and your Azure subscription.
   <summary>Click Here for Details</summary>
