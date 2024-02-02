@@ -1,4 +1,5 @@
 # -Automate Microsoft Azure Asset Inventory using Qualys: Streamlining Security and Compliance
+<img width="983" alt="Automate azure inventory" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/0fc4b2a9-4291-471b-a72f-656b30d29a0f">
 
 Managing a comprehensive asset inventory in Microsoft Azure is critical for effective security and compliance. By integrating Qualys, a leading cybersecurity solution, you can automate the asset inventory process, ensuring real-time visibility into your Azure environment. This guide outlines the steps to automate Microsoft Azure asset inventory using Qualys.
 
@@ -11,7 +12,8 @@ Before you create an Azure connector, ensure that you have the following permiss
 Active Directory
 - :book:Checking Azure Subscription Permissions to assign the application to a role in your
 Azure subscription</details>
-This process only requires a few minutes. Now, let's explore the permissions required to create an Azure connector.<details><summary>Click here for details</summary>
+This process only requires a few minutes. Now, let's explore the permissions required to create an Azure connector.
+<details><summary>Click here for details</summary>
 # -Step 1: Integration Setup
 Access Qualys Platform:
 
@@ -40,7 +42,13 @@ Access Qualys Platform:
 
 - ▶️ Provide the following details: A name for the application and also select the Supported account types: directory for single Tenant, Multi-Tenant. Also, Click on "Register" when done.<img width="749" alt="Register an application" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/02076576-5a2e-4620-9142-249e6cf20b1e">
 
-  <details>
+- ▶️ Navigate to the Registered app by selecting the "all application" button as shown on below
+<img width="950" alt="Navigate to App Registration" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/54c35a12-29b7-4047-b661-18914a3d8404"> For example: I will select the "IOT" app I created.
+- ▶️ Navigate to the Menu panel to your left and select "API Permissions" and then Click on the "Add Permission" button<img width="820" alt="API Permissions1" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/f2459961-3d3a-4302-bc81-cc8a0fbb166d">
+- ▶️ Select "Azure Service Management"<img width="677" alt="API Request" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/a74956b3-9c86-4d78-9537-73bcb4aad6dd">
+- ▶️  Select user impersonation permission and click Add permissions. <img width="680" alt="Add Permissions" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/932058b8-345d-449b-93b4-4fcd47553a8c">
+</details>
+ <details>
   <summary><span style="color: #4CAF50;">Details on Azure Tenant Architecture</span></summary>
 
   In the context of Microsoft Azure, the terms "single-tenant" and "multi-tenant" refer to the architectural models for deploying and managing applications, services, or resources.
@@ -78,9 +86,6 @@ Access Qualys Platform:
   Many Azure services are designed to be multi-tenant by default, allowing multiple customers to use the same underlying infrastructure. However, certain services or deployment options may provide options for dedicated, single-tenant instances.
 
   Understanding the tenancy model is crucial when designing and deploying applications or services in Azure, as it influences factors such as security, isolation, customization, and cost considerations. The choice between single-tenant and multi-tenant architectures depends on the specific requirements and priorities of the application or service being deployed.
-</details>
-
-
 </details>
 
 
