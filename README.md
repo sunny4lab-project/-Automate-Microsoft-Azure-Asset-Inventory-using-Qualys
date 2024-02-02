@@ -17,9 +17,15 @@ Access Qualys Platform:
 
 - 👨‍💻Log in to your Qualys account and access the platform.<img width="961" alt="Qualys Login screen " src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/a7a33272-234d-4c48-9a67-cedb6854de61">
 
-- Click on the Connector app on the menu bar to your Left.<img width="509" alt="navigate to the connector app" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/b24eac47-0b83-4417-9a0e-3fa115e68418">
+- ➡️Click on the Connector app on the menu bar to your Left.<img width="509" alt="navigate to the connector app" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/b24eac47-0b83-4417-9a0e-3fa115e68418">
+- ▶️ Select the Cloud service you wish to connect to. In this case it's going to be "Azure Connector" <img width="954" alt="cloud connector selection" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/967b5f13-41f0-4259-b0bd-a978818dd8ad">
 
-- 🧭Navigate to Azure Integration:
+- ➡️Enter a name and description (optional) for your connector <img width="926" alt="Connect Basic Details " src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/e60f414f-943b-4100-9317-2e59b1e714d8">
+
+
+# - 🧭Navigate to Azure Integration:
+
+- Set up Authentication Details
 
 - 🖥️Locate the Azure integration settings in Qualys.
 - 🧰Configure Azure Connection:
