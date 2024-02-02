@@ -36,5 +36,49 @@ Access Qualys Platform:
 - ▶️ On the Navigation Panel on the left, scroll down and Click App Registrations > New Registration.
 <img width="419" alt="App Registration" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/8c41640c-a78f-4441-952c-b5bd8f47481c">
 
+- ▶️ Click on the "New Registration" with the + sign. <img width="783" alt="New Registration" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/0b76d242-1091-4264-aa24-fb0d55a4d9f0">
+
+- ▶️ Provide the following details: A name for the application and also select the Supported account types: directory for single Tenant, Multi-Tenant <img width="749" alt="Register an application" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/02076576-5a2e-4620-9142-249e6cf20b1e">
+  <details>
+  <summary><span style="color: #4CAF50;">Details on Azure Tenant Architecture</span></summary>
+
+  In the context of Microsoft Azure, the terms "single-tenant" and "multi-tenant" refer to the architectural models for deploying and managing applications, services, or resources.
+
+  # <span style="color: #FF5733;">Single-Tenant:</span>
+
+  Definition:
+  <span style="color: #FF5733;">Single-Tenant (or Single-Tenancy):</span> In a single-tenant architecture, each instance of an application or service is dedicated to a single customer (tenant). The resources and data associated with that instance are isolated and not shared with other customers.
+
+  # <span style="color: #3370FF;">Characteristics:</span>
+  - <span style="color: #3370FF;">Isolation:</span> Each customer has a dedicated and isolated environment.
+  - <span style="color: #3370FF;">Customization:</span> Customers have the flexibility to customize and configure the environment according to their specific needs.
+  - <span style="color: #3370FF;">Control:</span> Customers have more control over the infrastructure, security, and policies.
+
+  # <span style="color: #FF5733;">Use Cases:</span>
+  Single-tenant architectures are often preferred in scenarios where customers require a high level of customization, control, and isolation. Examples include certain compliance requirements, security-sensitive applications, or scenarios where customers have specific regulatory constraints.
+
+  # <span style="color: #3370FF;">Multi-Tenant:</span>
+
+  Definition:
+  <span style="color: #3370FF;">Multi-Tenant (or Multi-Tenancy):</span> In a multi-tenant architecture, multiple instances of an application or service share the same resources and infrastructure. Each customer (tenant) remains logically isolated, but they all share a common underlying platform.
+
+  # <span style="color: #FF5733;">Characteristics:</span>
+  - <span style="color: #FF5733;">Resource Sharing:</span> Multiple customers share the same set of resources and infrastructure.
+  - <span style="color: #FF5733;">Cost Efficiency:</span> Shared resources lead to cost efficiency and resource optimization.
+  - <span style="color: #FF5733;">Scalability:</span> Multi-tenant architectures are often more scalable as resources can be dynamically allocated based on demand.
+
+  # <span style="color: #3370FF;">Use Cases:</span>
+  Multi-tenant architectures are suitable for scenarios where resource efficiency, scalability, and cost-sharing are priorities. Many cloud services, including Azure, adopt a multi-tenant model, allowing multiple customers to leverage shared infrastructure while maintaining logical isolation.
+
+  # <span style="color: #FF5733;">Azure and Tenancy:</span>
+  In Azure Active Directory (Azure AD), tenancy refers to the organization's instance of Azure AD. It can be either a single-tenant (dedicated to a single organization) or a multi-tenant (shared by multiple organizations). Azure AD supports both models.
+
+  # <span style="color: #3370FF;">Azure Services:</span>
+  Many Azure services are designed to be multi-tenant by default, allowing multiple customers to use the same underlying infrastructure. However, certain services or deployment options may provide options for dedicated, single-tenant instances.
+
+  Understanding the tenancy model is crucial when designing and deploying applications or services in Azure, as it influences factors such as security, isolation, customization, and cost considerations. The choice between single-tenant and multi-tenant architectures depends on the specific requirements and priorities of the application or service being deployed.
+</details>
+
+
 - ☑️Enter Azure credentials and establish a secure connection between Qualys and your Azure subscription.
   <summary>Click Here for Details</summary>
