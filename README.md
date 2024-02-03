@@ -14,15 +14,7 @@ Active Directory
 Azure subscription</details>
 This process only requires a few minutes. Now, let's explore the permissions required to create an Azure connector.
 <details><summary>Click here for details</summary>
-# -Step 1: Integration Setup
-Access Qualys Platform:
-
-- 👨‍💻Log in to your Qualys account and access the platform.<img width="961" alt="Qualys Login screen " src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/a7a33272-234d-4c48-9a67-cedb6854de61">
-
-- ➡️Click on the Connector app on the menu bar to your Left.<img width="509" alt="navigate to the connector app" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/b24eac47-0b83-4417-9a0e-3fa115e68418">
-- ▶️ Select the Cloud service you wish to connect to. In this case it's going to be "Azure Connector" <img width="954" alt="cloud connector selection" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/967b5f13-41f0-4259-b0bd-a978818dd8ad">
-
-- ➡️Enter a name and description (optional) for your connector  # <img width="926" alt="Connect Basic Details " src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/e60f414f-943b-4100-9317-2e59b1e714d8">
+# -Step 1: Azure Integration Setup
 
 
 # - 🧭Navigate to Azure Integration:
@@ -47,11 +39,40 @@ Access Qualys Platform:
 - ▶️ Navigate to the Menu panel to your left and select "API Permissions" and then Click on the "Add Permission" button<img width="820" alt="API Permissions1" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/f2459961-3d3a-4302-bc81-cc8a0fbb166d">
 - ▶️ Select "Azure Service Management"<img width="677" alt="API Request" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/a74956b3-9c86-4d78-9537-73bcb4aad6dd">
 - ▶️  Select user impersonation permission and click Add permissions. <img width="680" alt="Add Permissions" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/932058b8-345d-449b-93b4-4fcd47553a8c">
+- ▶️ Select the application that you created and click on "Certificate & Secrte" ➡️ Click on the "New Client secret" button. Add Descriptions and select the expiry duration of your choice. Then, click the "Add" button 🔘. Note:- Make sure to copy the key value immediately and save it in your notepad⌚.  <img width="560" alt="Add Certificate and Secret" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/cb3976b1-09e7-434f-a322-06ad06053100">
+
+# Step 2: 
+
+# Access Qualys Platform:
+
+- 👨‍💻Log in to your Qualys account and access the platform.<img width="961" alt="Qualys Login screen " src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/a7a33272-234d-4c48-9a67-cedb6854de61">
+
+- ➡️Click on the Connector app on the menu bar to your Left.<img width="509" alt="navigate to the connector app" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/b24eac47-0b83-4417-9a0e-3fa115e68418">
+- ▶️ Select the Cloud service you wish to connect to. In this case it's going to be "Azure Connector" <img width="954" alt="cloud connector selection" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/967b5f13-41f0-4259-b0bd-a978818dd8ad">
+
+- ➡️Enter a name and description (optional) for your connector  # <img width="926" alt="Connect Basic Details " src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/e60f414f-943b-4100-9317-2e59b1e714d8">
+
+- ▶️ Copy the Application (client) ID and Directory (tenant) ID created earlier by going to Microsoft Entra ID and selecting "App Registrations" on the navigation panel to your left, Click "All Application and select the app you created. Paste all the necessary information in the connector details as shown below, then click the "next button. 
+<img width="776" alt="Authentication details" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/024f530c-d447-4f20-b87e-49154f26e0d7">
+
+📓 Note: Make sure to include Subscription ID.
+
+- ➡️ Go to your Subscription ➡️Select your subscription ➡️ Access Control (IAM) 
+and Click on "Add"
+<img width="718" alt="Add role base" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/12836aac-a419-4537-8545-8a094be80111">
+
+- ➡️ Assign a reader role by clicking on "reader" and hitting the "next" button. User, group, or service principal" is set to default. Click on the "Select Member" In the search box to your right side, type the name of the application you created, and then select the app registration and click on the "Select" button. Then, click on Review + create <img width="796" alt="Add Role Assignment " src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/e1adfc05-9fdb-4b06-ba46-58c543eea0d9">
+- ➡️ After making sure that all the settings and authentication details are correct, now you can click or select the "Test Connection" Button and your result should look like this. If the connections failed then the authentication details provided are either not correct or you've missed a step in the authentication setup in Azure. 
+<img width="959" alt="Test Connection Result" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/edfce0da-8643-4940-ba88-23178633d586">
+
+- ➡️ Make sure to Check the "Automatically activate all assets for Vm scanning application" box and click Next. The last part of this Lab is to review and confirm and you should be good 😄.
+
 </details>
  <details>
   <summary><span style="color: #4CAF50;">Details on Azure Tenant Architecture</span></summary>
 
   In the context of Microsoft Azure, the terms "single-tenant" and "multi-tenant" refer to the architectural models for deploying and managing applications, services, or resources.
+<img width="776" alt="The Last Set" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/cac97348-7264-4481-8f0f-953d995c3b9f">
 
   # <span style="color: #FF5733;">Single-Tenant:</span>
 
