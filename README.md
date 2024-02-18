@@ -2,7 +2,10 @@
 <img width="961" alt="Final Result" src="https://github.com/sunny4lab-project/-Automate-Microsoft-Azure-Asset-Inventory-using-Qualys/assets/139194279/1540da60-c780-4899-9fcb-c2aba871625c">
 
 
-Managing a comprehensive asset inventory in Microsoft Azure is critical for effective security and compliance. By integrating Qualys, a leading cybersecurity solution, you can automate the asset inventory process, ensuring real-time visibility into your Azure environment. This guide outlines the steps to automate Microsoft Azure asset inventory using Qualys.
+Managing a comprehensive asset inventory in Microsoft Azure is critical for effective security and compliance. By integrating Qualys, a leading cybersecurity solution, you can automate the asset inventory process, ensuring real-time visibility into your Azure environment. This project aims to automate the asset inventory process within Microsoft Azure using Qualys, a cybersecurity platform. By integrating Qualys' capabilities with Azure, the project seeks to streamline security and compliance efforts by efficiently identifying and managing assets deployed within Azure environments. This automation facilitates real-time visibility into Azure assets, enabling proactive security measures, vulnerability management, and compliance monitoring. Ultimately, the project aims to enhance overall security posture and regulatory adherence within Azure environments by automating asset inventory processes through the use of Qualys' robust security solutions.
+
+
+
 
 # -Deploying Azure Connector 🖱️
 
